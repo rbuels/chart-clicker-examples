@@ -53,6 +53,7 @@ $area->brush->width(3);
 $def->renderer($area);
 $def->range_axis->tick_values([qw(1 3 5)]);
 $def->range_axis->format('%d');
+$def->range_axis->label('Lorem Ipsum Dolor');
 $def->domain_axis->tick_values([qw(2 4 6 8 10)]);
 $def->domain_axis->format('%d');
 
